@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Piano</title>
+</head>
+<body>
+    <div class="piano">
+        <div data-nota="c2" class="tecla blanca"></div>
+        <div data-nota="c2s" class="tecla negra"></div>
+        <div data-nota="d2" class="tecla blanca"></div>
+        <div data-nota="d2s" class="tecla negra"></div>
+        <div data-nota="e2" class="tecla blanca"></div>
+        <div data-nota="f2" class="tecla blanca"></div>
+        <div data-nota="f2s" class="tecla negra"></div>
+        <div data-nota="g2" class="tecla blanca"></div>
+        <div data-nota="g2s" class="tecla negra"></div>
+        <div data-nota="a2" class="tecla blanca"></div>
+        <div data-nota="a2s" class="tecla negra"></div>
+        <div data-nota="b2" class="tecla blanca"></div>
+
+        <div data-nota="c3" class="tecla blanca"></div>
+        <div data-nota="c3s" class="tecla negra"></div>
+        <div data-nota="d3" class="tecla blanca"></div>
+        <div data-nota="d3s" class="tecla negra"></div>
+        <div data-nota="e3" class="tecla blanca"></div>
+        <div data-nota="f3" class="tecla blanca"></div>
+        <div data-nota="f3s" class="tecla negra"></div>
+        <div data-nota="g3" class="tecla blanca"></div>
+        <div data-nota="g3s" class="tecla negra"></div>
+        <div data-nota="a3" class="tecla blanca"></div>
+        <div data-nota="a3s" class="tecla negra"></div>
+        <div data-nota="b3" class="tecla blanca"></div>
+
+        <div data-nota="c4" class="tecla blanca"></div>
+        <div data-nota="c4s" class="tecla negra"></div>
+        <div data-nota="d4" class="tecla blanca"></div>
+        <div data-nota="d4s" class="tecla negra"></div>
+        <div data-nota="e4" class="tecla blanca"></div>
+        <div data-nota="f4" class="tecla blanca"></div>
+        <div data-nota="f4s" class="tecla negra"></div>
+        <div data-nota="g4" class="tecla blanca"></div>
+        <div data-nota="g4s" class="tecla negra"></div>
+        <div data-nota="a4" class="tecla blanca"></div>
+        <div data-nota="a4s" class="tecla negra"></div>
+        <div data-nota="b4" class="tecla blanca"></div>
+
+        <div data-nota="c5" class="tecla blanca"></div>
+        <div data-nota="c5s" class="tecla negra"></div>
+        <div data-nota="d5" class="tecla blanca"></div>
+        <div data-nota="d5s" class="tecla negra"></div>
+        <div data-nota="e5" class="tecla blanca"></div>
+        <div data-nota="f5" class="tecla blanca"></div>
+        <div data-nota="f5s" class="tecla negra"></div>
+        <div data-nota="g5" class="tecla blanca"></div>
+        <div data-nota="g5s" class="tecla negra"></div>
+        <div data-nota="a5" class="tecla blanca"></div>
+        <div data-nota="a5s" class="tecla negra"></div>
+        <div data-nota="b5" class="tecla blanca"></div>
+
+        <!-- <div data-nota="c6" class="tecla blanca"></div> -->
+    </div>
+
+    <audio src="./notas/c2.mp3" id="c2"></audio>
+    <audio src="./notas/c2s.mp3" id="c2s"></audio>
+    <audio src="./notas/d2.mp3" id="d2"></audio>
+    <audio src="./notas/d2s.mp3" id="d2s"></audio>
+    <audio src="./notas/e2.mp3" id="e2"></audio>
+    <audio src="./notas/f2.mp3" id="f2"></audio>
+    <audio src="./notas/f2s.mp3" id="f2s"></audio>
+    <audio src="./notas/g2.mp3" id="g2"></audio>
+    <audio src="./notas/g2s.mp3" id="g2s"></audio>
+    <audio src="./notas/a2.mp3" id="a2"></audio>
+    <audio src="./notas/a2s.mp3" id="a2s"></audio>
+    <audio src="./notas/b2.mp3" id="b2"></audio>
+
+    <audio src="./notas/c3.mp3" id="c3"></audio>
+    <audio src="./notas/c3s.mp3" id="c3s"></audio>
+    <audio src="./notas/d3.mp3" id="d3"></audio>
+    <audio src="./notas/d3s.mp3" id="d3s"></audio>
+    <audio src="./notas/e3.mp3" id="e3"></audio>
+    <audio src="./notas/f3.mp3" id="f3"></audio>
+    <audio src="./notas/f3s.mp3" id="f3s"></audio>
+    <audio src="./notas/g3.mp3" id="g3"></audio>
+    <audio src="./notas/g3s.mp3" id="g3s"></audio>
+    <audio src="./notas/a3.mp3" id="a3"></audio>
+    <audio src="./notas/a3s.mp3" id="a3s"></audio>
+    <audio src="./notas/b3.mp3" id="b3"></audio>
+
+    <audio src="./notas/c4.mp3" id="c4"></audio>
+    <audio src="./notas/c4s.mp3" id="c4s"></audio>
+    <audio src="./notas/d4.mp3" id="d4"></audio>
+    <audio src="./notas/d4s.mp3" id="d4s"></audio>
+    <audio src="./notas/e4.mp3" id="e4"></audio>
+    <audio src="./notas/f4.mp3" id="f4"></audio>
+    <audio src="./notas/f4s.mp3" id="f4s"></audio>
+    <audio src="./notas/g4.mp3" id="g4"></audio>
+    <audio src="./notas/g4s.mp3" id="g4s"></audio>
+    <audio src="./notas/a4.mp3" id="a4"></audio>
+    <audio src="./notas/a4s.mp3" id="a4s"></audio>
+    <audio src="./notas/b4.mp3" id="b4"></audio>
+
+    <audio src="./notas/c5.mp3" id="c5"></audio>
+    <audio src="./notas/c5s.mp3" id="c5s"></audio>
+    <audio src="./notas/d5.mp3" id="d5"></audio>
+    <audio src="./notas/d5s.mp3" id="d5s"></audio>
+    <audio src="./notas/e5.mp3" id="e5"></audio>
+    <audio src="./notas/f5.mp3" id="f5"></audio>
+    <audio src="./notas/f5s.mp3" id="f5s"></audio>
+    <audio src="./notas/g5.mp3" id="g5"></audio>
+    <audio src="./notas/g5s.mp3" id="g5s"></audio>
+    <audio src="./notas/a5.mp3" id="a5"></audio>
+    <audio src="./notas/a5s.mp3" id="a5s"></audio>
+    <audio src="./notas/b5.mp3" id="b5"></audio>
+
+    <audio src="./notas/c6.mp3" id="c6"></audio>
+</body>
+</html>
